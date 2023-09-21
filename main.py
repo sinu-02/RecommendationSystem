@@ -54,7 +54,7 @@ def predict():
     print(final_input)
 
     output = model.predict(final_input)[0]
-    return render_template("home.html", prediction_text="Scheme : {}".format(output))
+    return render_template("index.html", prediction_text="Scheme : {}".format(output))
 
 
 # Press the green button in the gutter to run the script.
